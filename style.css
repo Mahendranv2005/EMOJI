@@ -1,0 +1,81 @@
+body {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.smiley, .shocking, .nothing {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye1, .eye2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(40, 35, 72);
+    border-radius: 50%;
+}
+
+.eye1 {
+    top: 30px;
+    left: 25px;
+}
+
+.eye2 {
+    top: 30px;
+    left: 65px;
+}
+
+.mouth {
+    position: absolute;
+    height: 35px;
+    width: 60px;
+    background-color: white;
+    border-radius: 0 0 80px 80px;
+    top: 60px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.tongue {
+    position: absolute;
+    height: 27px;
+    width: 30px;
+    background-color: pink;
+    border-radius: 50px 50px 0 0;
+    top: 10px;
+    left: 16px;
+}
+
+.mouth1 {
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    top: 60px;
+}
+
+.mouth2 {
+    position: absolute;
+    height: 10px;
+    width: 60px;
+    background-color: black;
+    top: 60px;
+    left: 20px;
+}
